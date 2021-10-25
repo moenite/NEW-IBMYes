@@ -87,9 +87,10 @@ IBM Cloud 10天不操作就会关机，所以我们需要 十天内对其重启�
 
 点击又上角的命令行
 
-在这一步我们主要是记录4个值
+在这一步我们主要是记录5个值
 
  ```
+IBM_ORG // IBM Cloud的登录邮箱
 IBM_ACCOUNT // IBM Cloud的登录邮箱和密码
 IBM_APP_NAME // 应用的名称
 REGION_NUM // 区域编码
@@ -153,9 +154,10 @@ https://github.com/Davidlasky/IBMYes
 
 New secret
 
-分别建立四个secret
+分别建立五个secret
 
 ```
+IBM_ORG // IBM Cloud的登录邮箱
 IBM_ACCOUNT // IBM Cloud的登录邮箱和密码
 IBM_APP_NAME // 应用的名称
 REGION_NUM // 区域编码
@@ -170,7 +172,7 @@ RESOURSE_ID // 资源组ID
 
 这里需要邮箱和密码所以中间换行 ，其他的不需要换行 。
 
-把四个secret补充完成
+把五个secret补充完成
 
 ![image-20200615185015130](img/README/image-20200615185015130.png)
 
